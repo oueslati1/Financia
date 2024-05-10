@@ -1,0 +1,41 @@
+.chapter-page {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  .chapter-page h2{
+    color: #1a191f;
+    font-size: 36px !important; 
+    font-weight: 500;
+  }
+  p{
+    color: #1a191f;
+  }
+ 
+  button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #7421FC;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  button:hover {
+    background-color: #8945f7;
+  }
+  .chapter-page-next{
+    margin-right: 1%;
+  }
+  .chapter-page-img{
+    display: block;
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 1%;
+  }
+

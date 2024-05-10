@@ -1,0 +1,40 @@
+.next-page {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #7421FC;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+  }
+  .next-page h2{
+    color: #1a191f;
+    font-size: 36px !important; 
+    font-weight: 500;
+    text-align: center;
+    align-self: center;
+  }
+  .next-page h3{
+    color: #1a191f;
+    font-size: 18px !important; 
+    font-weight: 600;
+  }
+  .next-page p{
+    color: #1a191f;
+    margin-top: -25px !important;
+  }
+  
+  button:hover {
+    background-color: #8945f7;
+  }
+  .next-page-next{
+    margin-right: 1%;
+  }
+

@@ -7,9 +7,9 @@ const bcrypt = require('bcrypt');
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'database1',
-  password: '12345678',
-  port: 5433,
+  database: '',
+  password: '',
+  port: ,
 });
 
 // GET all posts

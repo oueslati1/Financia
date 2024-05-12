@@ -77,7 +77,6 @@ export default function Quiz() {
     localStorage.removeItem('f3quizScore');
     localStorage.removeItem('f3selectedAnswer');
     localStorage.removeItem('F3QuizCompleted');
-    localStorage.removeItem('totalPoints');
   };
 
   return (
@@ -87,7 +86,6 @@ export default function Quiz() {
         <div className="quiz-result-container">
           {quizScore === 1 ? (
             <div>
-              <button onClick={handleQuizReset}>Reset Quiz</button>
               <div className="quiz-wrapper" style={{ position: 'relative' }}>
                 <div
                   className="total-points"

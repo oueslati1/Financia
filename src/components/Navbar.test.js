@@ -6,11 +6,11 @@ import Navbar from './Navbar';
 test('renders Navbar component', () => {
   render(<Navbar />);
 
-  // Assert that the logo is rendered
+  // logo 
   const logo = screen.getByRole('link', { name: '' });
   expect(logo).toBeInTheDocument();
 
-  // Assert that the menu links are rendered
+  // menu links
   const homeLink = screen.getByRole('link', { name: 'Home' });
   const aboutLink = screen.getByRole('link', { name: 'About' });
   const coursesLink = screen.getByRole('link', { name: 'Courses' });

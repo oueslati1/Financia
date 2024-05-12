@@ -84,7 +84,6 @@ export default function Quiz() {
         <div className="quiz-result-container">
           {quizScore === 1 ? (
             <div>
-              <button onClick={handleQuizReset}>Reset Quiz</button>
               <div className="quiz-wrapper" style={{ position: 'relative' }}>
                 <div
                   className="total-points"
